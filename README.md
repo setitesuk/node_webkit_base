@@ -1,2 +1,12 @@
-node_webkit_base
+AppName
 ================
+
+make deps
+
+then
+
+make mac
+
+or
+
+gmake win

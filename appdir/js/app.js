@@ -18,6 +18,12 @@ $(document).ready(function() {
 	  win.showDevTools();
   });
 
+  $(document).keyup(function(e) {    
+    if ( e.keyCode === 27 ) {  // Close the app on 'ESC'
+      win.close();
+    }
+  });
+
 });
 
 function clearMain () {
