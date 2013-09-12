@@ -2,7 +2,7 @@ var gui   = require('nw.gui');
 var win   = gui.Window.get();
 var util  = require('util');
 var EJS   = require('ejs');
-//var fs    = require('fs');
+var fs    = require('fs');
 
 var appState;
 
